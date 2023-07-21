@@ -1,0 +1,42 @@
+.slider_container {
+    position: relative;
+}
+
+.arrow {
+    background-color: $white;
+    padding: 10px 12px;
+    border-radius: 50%;
+    width: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.prev {
+    top: 50%;
+    left: 5.5%;
+    z-index: 1;
+}
+
+.next {
+    top: 50%;
+    left: 85%;
+    z-index: 1;
+}
+
+.product {
+    width: 100%;
+}
+
+.slide-hidden {
+    display: none;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .desktopImgs_container {
+        display: none;
+    }
+    
+}
+
+
+

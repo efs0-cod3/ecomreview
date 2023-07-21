@@ -1,0 +1,71 @@
+.info_hl {
+    color: $orange;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.info_price--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_price--priceNdiscount {
+    display: inherit;
+    align-items: center;
+}
+
+.info_price {
+    font-size: 2rem;
+}
+
+.info_discount {
+    background-color: $pale-orange;
+    border-radius: 6px;
+    color: $orange;
+    font-weight: 400;
+    padding: 2px 10px;
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+
+.price_before {
+    color: $grayish-blue;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+
+.numberOfItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $light-grayish-blue;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    color: $white;
+    font-size: 1rem;
+    background-color: $orange;
+    border-radius: 8px;
+    border: none;
+margin-bottom: 10px;
+}
+
+.cart-btn-logo {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(251deg) brightness(101%) contrast(102%);
+    fill: white;
+    margin-right: 15px;
+}
+
+.count {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
