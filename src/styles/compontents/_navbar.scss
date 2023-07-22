@@ -19,6 +19,7 @@
   border: 2px solid $white;
   transition: border .5s ease-in-out;
   border-radius: 50%;
+  cursor: pointer;
 
   &:hover{
     border-color:  $orange;
