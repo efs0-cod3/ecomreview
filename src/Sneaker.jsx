@@ -3,7 +3,7 @@ import { ImageSlider } from "./components/ImageSlider";
 import { Navbar } from "./components/Navbar";
 import { CartContext } from "./components/context/CartContext";
 import { SnekerInfo } from "./components/SnekerInfo";
-import {DesktopImgs} from "./components/DesktopImgs"
+import { DesktopImgs } from "./components/DesktopImgs"
 
 export const Sneaker = () => {
   const [cartItems, setCartItems] = useState([]);
