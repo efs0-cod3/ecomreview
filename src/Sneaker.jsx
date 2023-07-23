@@ -3,7 +3,7 @@ import { ImageSlider } from "./components/ImageSlider";
 import { Navbar } from "./components/Navbar";
 import { CartContext } from "./components/context/CartContext";
 import { SnekerInfo } from "./components/SnekerInfo";
-import {DsktopImgs} from "./components/DsktopImgs"
+import {DesktopImgs} from "./components/DesktopImgs"
 
 export const Sneaker = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -14,7 +14,7 @@ export const Sneaker = () => {
         <Navbar />
         <div className="main">
           <ImageSlider />
-          <DsktopImgs />
+          <DesktopImgs />
 
           <SnekerInfo />
         </div>
