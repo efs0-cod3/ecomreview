@@ -17,9 +17,9 @@ export const Cart = ({ cartItems, cartClosed }) => {
     >
       <h2>Cart</h2>
       <hr />
-      <div className="cartComponent__cart-items">
+      <div className="cartComponent__cart-items ">
         {cartItems <= 0 ? (
-          <div className="empty-text">
+          <div className="empty-text animate__animated animate__fadeIn">
             <p>Your cart is empty</p>
           </div>
         ) : (
@@ -27,7 +27,7 @@ export const Cart = ({ cartItems, cartClosed }) => {
             {cartItems.map((item, i) => (
               <div
                 key={item.title + i}
-                className="cartComponent__cart-items-list"
+                className="cartComponent__cart-items-list animate__animated animate__fadeIn"
               >
                 <div className="cart-item-img_container">
                   <img src={item.url} alt={item.title} />
@@ -46,7 +46,7 @@ export const Cart = ({ cartItems, cartClosed }) => {
                 <img className="trashcan" src="/images/icon-delete.svg" onClick={() => deleteItem(item.id)}/>
               </div>
             ))}
-            <button className="btn checkout">Checkout</button>
+            <button className="btn checkout animate__animated animate__fadeIn">Checkout</button>
           </div>
         )}
       </div>

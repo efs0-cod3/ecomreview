@@ -20,6 +20,7 @@
 
   .inactive {
     width: 60px;
+    cursor: pointer;
   }
 
   .cartComponent {
@@ -36,6 +37,7 @@
     width: 60px;
     border-radius: 8px;
     overflow: hidden;
+    background-color: white;
   }
 
   .active-border {
@@ -43,7 +45,7 @@
   }
 
   .highlighted {
-    filter: opacity(0.5);
+    opacity: .35;
   }
 
   .inactive_container {
@@ -101,6 +103,7 @@
     border-bottom: solid $white 2px;
 
     &:hover {
+      transition: all .3s ease-in-out;
       border-bottom: solid $orange 2px;
       color: $very-dark-blue;
     }
@@ -112,6 +115,11 @@
 
   .cart {
     width: 25px;
+
+    &:hover {
+      transition: all .3s ease-in-out;
+      filter: invert(8%) sepia(18%) saturate(601%) hue-rotate(178deg) brightness(93%) contrast(89%);;
+    }
   }
 
   .cartComponent {

@@ -27,7 +27,7 @@ export const ImageSlider = () => {
       />
       <div>
        {images.map((img, idx) => (
-        <img key={img.alt} src={img.url} alt={img.alt} className={currentIndex === idx ? "product animate__animated animate__fadeIn" : "slide-hidden"}/>
+        <img key={img.alt} src={img.url} alt={img.alt} className={currentIndex === idx ? "product animate__animated animate__fadeIn" : "noShow"}/>
        ))}
       </div>
       <img
