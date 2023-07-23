@@ -2,7 +2,7 @@ import { useState } from "react";
 import { images } from "../helpers/sliderImages";
 import { ActivatedImgs } from "./ActivatedImgs";
 
-export const DesktopImgs = () => {
+export const DsktopImgs = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [activated, setActivated] = useState(false);
 
