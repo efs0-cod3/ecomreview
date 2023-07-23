@@ -6,9 +6,7 @@ export const Cart = ({ cartItems, cartClosed }) => {
   const { setCartItems } = useContext(CartContext)
 
   const deleteItem = (id) => {
-    console.log(id);
     setCartItems(cartItems.filter(items => items.id !== id))
-
   }
 
   return (
