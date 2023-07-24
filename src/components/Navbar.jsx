@@ -26,12 +26,12 @@ export const Navbar = () => {
       <nav className="navbar_main pt-5 pr-5 pl-5 pb-5">
         <div className="navbar_menu">
           <img
-            src="/images/icon-menu.svg"
+            src="./images/icon-menu.svg"
             alt="bars"
             className="ham mr-5 pointer"
             onClick={toggleMenu}
           />
-          <img src="/images/logo.svg" alt="logo" className="logo" />
+          <img src="./images/logo.svg" alt="logo" className="logo" />
         </div>
         <ul
           className={`navbar-items animate__animated ${
@@ -40,7 +40,7 @@ export const Navbar = () => {
         >
           <div className="close-menu">
             <img
-              src="/images/icon-close.svg"
+              src="./images/icon-close.svg"
               alt="bars"
               className="ham mr-5 mt-5 mb-5 pointer"
               onClick={toggleMenu}
@@ -63,11 +63,11 @@ export const Navbar = () => {
 
         <div className="navbar-utils">
           <div className="cart__container pointer" onClick={toggleCart}>
-            <img src="/images/icon-cart.svg" alt="cart" className="cart mr-1" />
+            <img src="./images/icon-cart.svg" alt="cart" className="cart mr-1" />
             <span className="cartItemsLength">{totalItems}</span>
           </div>
           <img
-            src="/images/image-avatar.png"
+            src="./images/image-avatar.png"
             alt="user-avatar"
             className="avatar ml-1"
           />

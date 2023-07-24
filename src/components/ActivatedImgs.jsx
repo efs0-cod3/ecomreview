@@ -25,7 +25,7 @@ export const ActivatedImgs = ({setActivated}) => {
     <div className="activatedImgs animate__animated animate__fadeIn">
         <div className="activatedImgs_container">
         <img
-          src="/images/icon-close.svg"
+          src="./images/icon-close.svg"
           alt="bars"
           className="close_activatedImgs mb-5 pointer"
           onClick={() => setActivated((activated) => !activated)}
@@ -36,7 +36,7 @@ export const ActivatedImgs = ({setActivated}) => {
      <div className="arrow-container--prev pointer" onClick={goToPrev}>
      <img
         className="activeImgs_arrow activeImgs_prev"
-        src="/images/icon-previous.svg"
+        src="./images/icon-previous.svg"
       />
      </div>
       {images.map((img, idx) => (
@@ -55,7 +55,7 @@ export const ActivatedImgs = ({setActivated}) => {
       <div className="arrow-container--next pointer" onClick={goToNext}>
       <img
         className="activeImgs_arrow activeImgs_next"
-        src="/images/icon-next.svg"
+        src="./images/icon-next.svg"
       />
       </div>
      </div>

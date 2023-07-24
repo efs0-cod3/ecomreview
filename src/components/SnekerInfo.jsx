@@ -22,7 +22,7 @@ export const SnekerInfo = () => {
       setCartItems(cartItem => {
         return [...cartItem, {
           id: cartItems.length + 1,
-          url: "/images/image-product-1-thumbnail.jpg",
+          url: "./images/image-product-1-thumbnail.jpg",
           title: "Fall Limited Edition Sneakers",
           price: 125.00,
           quantity: count,
@@ -53,12 +53,12 @@ export const SnekerInfo = () => {
 
      <div className="button_counter-container">
      <div className="numberOfItems mt-5">
-        <img src="/images/icon-minus.svg" className="mathsigns pointer" onClick={minus}/>
+        <img src="./images/icon-minus.svg" className="mathsigns pointer" onClick={minus}/>
         <p className="count">{count}</p>
-        <img src="/images/icon-plus.svg" className="mathsigns pointer" onClick={plus}/>
+        <img src="./images/icon-plus.svg" className="mathsigns pointer" onClick={plus}/>
      </div>
       <button className="addToCartBtn mt-5 btn pointer" onClick={addToCart}>
-        <img src="/images/icon-cart.svg" alt="cart-icon" className="mr-1 cart-btn-logo" /> Add
+        <img src="./images/icon-cart.svg" alt="cart-icon" className="mr-1 cart-btn-logo" /> Add
         to cart
       </button>
      </div>

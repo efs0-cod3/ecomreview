@@ -43,7 +43,7 @@ export const Cart = ({ cartItems, cartClosed }) => {
                     </p>
                   </div>
                 </div>
-                <img className="trashcan" src="/images/icon-delete.svg" onClick={() => deleteItem(item.id)}/>
+                <img className="trashcan" src="./images/icon-delete.svg" onClick={() => deleteItem(item.id)}/>
               </div>
             ))}
             <button className="btn checkout animate__animated animate__fadeIn">Checkout</button>

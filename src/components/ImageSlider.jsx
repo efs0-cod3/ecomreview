@@ -22,7 +22,7 @@ export const ImageSlider = () => {
     <div className="slider_container">
       <img
         className="arrow prev"
-        src="/images/icon-previous.svg"
+        src="./images/icon-previous.svg"
         onClick={goToPrev}
       />
       <div>
@@ -32,7 +32,7 @@ export const ImageSlider = () => {
       </div>
       <img
         className="arrow next"
-        src="/images/icon-next.svg"
+        src="./images/icon-next.svg"
         onClick={goToNext}
       />
     </div>
