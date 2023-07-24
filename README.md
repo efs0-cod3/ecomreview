@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://efs0-cod3.github.io/e-com_productview/](GitHub)
-- Live Site URL: [https://github.com/efs0-cod3/e-com_productview](GitHub-Pages)
+- Solution URL: [https://github.com/efs0-cod3/ecomreview](GitHub)
+- Live Site URL: [https://efs0-cod3.github.io/ecomreview/](GitHub-Pages)
 
 ## My process
 
